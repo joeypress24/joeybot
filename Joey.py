@@ -151,15 +151,15 @@ while True:
     time.sleep(1.5)
     # print("\n")
     if testBit == 1:
-        if(str is "f"): #poem
+        if(str == "f"): #poem
             print(poem)
-        elif str is "d": #poem
+        elif str == "d": #poem
             print(poem1)
-        elif str is "s": #poem
+        elif str == "s": #poem
             print(poem2)
-        elif str is "a": #poem
+        elif str == "a": #poem
             print(poem3)
-        elif str is "j": #option
+        elif str == "j": #option
             print(j)
         else:
             print(str)
